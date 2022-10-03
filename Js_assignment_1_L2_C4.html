@@ -12,8 +12,6 @@
     <script>
 
         // test string
-        //let test_str = "gfghello";
-        var str = prompt("test str is : ");
 
         // function that count character occurrences in string
         function count_occur(str) {
@@ -35,11 +33,18 @@
                     }
                 }
                 if (count > 0)
-                    alert("Number of occurence of " + str[i] + " is " + count);
+                    console.log("Number of occurence of " + str[i] + " is " + count);
 
             }
 
+
+
         }
+        const test_str = prompt('Enter a string or number: ');
+
+        count_occur(test_str)
+
+
 
 
     </script>
